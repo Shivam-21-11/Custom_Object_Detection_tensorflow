@@ -16,10 +16,10 @@
 - The first noteebook(Image Collection.ipynb) contains all the code which is used to collect the data for training and testing and image labeling.
 - The second notebook(model.ipynb) contains all the code which deals with model creation/tweaking , evaluation and prediction.
 
-##Image Collection.ipynb
+## Image Collection.ipynb
 In this notebook we setup our starting folders and collect the data which we will use for model training and testing and also label the image using [LabelImg](https://github.com/tzutalin/labelImg "LabelImg").
 
-##model.ipynb
+## model.ipynb
 - In this notebook we first download and install the tensorflow object detection api from the tensorflow model garden.
 - Then we create a label map for our model.
 - Then we create Tfrecors using [GenerateTFRecord](https://github.com/nicknochnack/GenerateTFRecord "GenerateTFRecord").
