@@ -13,7 +13,7 @@
 
 ## Info
 - The Over-all Steps are divided into two jupyter notebook
-- The first noteebook(Image Collection.ipynb) contains all the code which is used to collect the data for training and testing and image labeling.
+- The first notebook(Image Collection.ipynb) contains all the code which is used to collect the data for training and testing and image labeling.
 - The second notebook(model.ipynb) contains all the code which deals with model creation/tweaking , evaluation and prediction.
 
 ## Image Collection.ipynb
@@ -22,6 +22,6 @@ In this notebook we setup our starting folders and collect the data which we wil
 ## model.ipynb
 - In this notebook we first download and install the tensorflow object detection api from the tensorflow model garden.
 - Then we create a label map for our model.
-- Then we create Tfrecors using [GenerateTFRecord](https://github.com/nicknochnack/GenerateTFRecord "GenerateTFRecord").
+- Then we create Tfrecords using [GenerateTFRecord](https://github.com/nicknochnack/GenerateTFRecord "GenerateTFRecord").
 - Now we import pipeline config file from the api folder and update it according to our custom objects/labels.
 - Now we train and Evaluate our model .
